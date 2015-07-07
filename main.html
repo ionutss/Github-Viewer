@@ -1,0 +1,11 @@
+<div class="col-md-offset-1" ng-controller="MainController">
+
+	{{ countdown  }}
+	<form name="searchUser" ng-submit="search(username)">
+		<div class="form-group col-md-2">
+		<input type="search" required placeholder="Enter the username" ng-model="username" class="form-control" />
+		<br>
+		<input type="Submit" value="Search"  class="btn btn-default" /> <!ng-click="search(username)">
+		</div>
+	</form>
+</div>
